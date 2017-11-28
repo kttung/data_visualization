@@ -1,0 +1,32 @@
+body {
+  background-image: url('data:image/svg+xml,%3Csvg width="12" height="24" viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+.chart {
+  margin-top:20px;
+  background: white;
+}
+
+#chart-title {
+  font-size:32px;
+  fill: steelblue;
+}
+
+
+.chart rect {
+  fill: steelblue;
+  margin: 0;
+}
+
+.chart rect:hover {
+  fill: black;
+}
+
+#tooltip {
+    position: absolute;			
+    text-align: center;			
+    background: #E0F2F1;	
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+}
